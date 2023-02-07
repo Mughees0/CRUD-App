@@ -1,0 +1,117 @@
+html {
+  background-color: darkkhaki;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head1 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-style: oblique;
+  color: darkred;
+}
+.hr1 {
+  border-width: 1px;
+  border-color: darkmagenta;
+  width: 380px;
+  margin-top: -16px;
+  margin-bottom: 20px;
+}
+
+.App label {
+  color: rgb(0, 126, 126);
+  font-style: italic;
+  font-weight: 700;
+  margin-right: 200px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.App input {
+  width: 200px;
+  height: 15px;
+  margin-bottom: 0;
+  border-radius: 5px;
+  margin-right: -100px;
+  background-color: orange;
+  display: block;
+  align-items: center;
+}
+.App input:hover {
+  transition: 100ms;
+  border-radius: 8px;
+  background-color: greenyellow;
+}
+.App input:focus {
+  border-color: black;
+  outline: none !important;
+}
+.butt {
+  margin-top: 20px;
+  width: 150px;
+  height: 25px;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: brown;
+  color: rgb(255, 224, 168);
+  font-size: 15px;
+  font-weight: bold;
+}
+.butt:hover {
+  transition: 100ms;
+  color: greenyellow;
+  font-weight: 600;
+  cursor: pointer;
+}
+.butt2 {
+  margin-top: 10px;
+  width: 150px;
+  height: 25px;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: green;
+  color: orangered;
+  font-size: 15px;
+  font-weight: bold;
+}
+.butt2:hover {
+  transition: 100ms;
+  color: greenyellow;
+  font-weight: 600;
+  cursor: pointer;
+}
+.hr2 {
+  margin-top: 20px;
+  border-width: 1px;
+  border-color: black;
+  width: 400px;
+}
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.employDiv {
+  width: 400px;
+  height: 175px;
+  border: 1px solid black;
+  border-width: 2px;
+  margin-top: 20px;
+}
+
+.employDiv h3 {
+  padding-bottom: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
